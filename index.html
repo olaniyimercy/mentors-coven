@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&amp;display=swap" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Mentors Coven</title>
   </head>
   <body>
@@ -25,19 +28,26 @@
       <!--PREFACE-->
       <div class="container__preface">
         <div class="container__preface-text">
-          <h2 style="line-height: 1.9rem">
+          <h2>
             We are your
             <b style="color: #f89530">Career</b>
-            <p>GPS</p>
+            <h2>GPS</h2>
           </h2>
 
-          <p style="line-height: 1.5rem">
+          <p>
             We connect you to dedicated one-on-one industry experts for
             suutainable career and business advancement, right on budget.
           </p>
 
-          <input type="text" placeholder="Search for Mentors" />
-          <button class="container__preface-text searchbar">Find Mentor</button>
+          <div class="container__preface__search">
+            <p>
+              <img src="./img/search.svg" style="margin-right: 1rem" /> Search
+              for Mentors
+            </p>
+            <button class="container__preface-text searchbar">
+              Find Mentor
+            </button>
+          </div>
         </div>
 
         <div class="container__preface__images">
@@ -119,8 +129,8 @@
 
     <!--SERVICES-->
     <div class="services">
-      <div>
-        <h2>Our Services</h2>
+      <div class="services__text">
+        <h2 style="color: #333; font-size: 28px">Our Services</h2>
         <p>
           Our Mentorship packages are specially tailored to meet all of your
         </p>
@@ -136,50 +146,57 @@
       <div class="services__terms">
         <div class="services__terms-packages">
           <img src="./img/a.svg" />
-          <h4 class="light-color" style="margin-bottom: 0.5rem">
-            Career Hack Plan
-          </h4>
+          <h4 style="margin-bottom: 0.5rem">Career Hack Plan</h4>
           <p>The package is ideal for you, if you are</p>
           <p>looking at a starting career or making a</p>
           <p>career switch. (<b>Bonus gift:</b> training</p>
           <p>material). Browse & Book Mentors for as</p>
           <p>low as <b>N3999-5999</b> per session.</p>
-          <h4 class="light-color top">Find Mentor</h4>
+          <h4 class="light-color top arrow">
+            Find Mentor
+            <img src="./img/arrow_right_alt_black_24dp.svg" />
+          </h4>
         </div>
 
         <div class="services__terms-packages">
           <img src="./img/b.svg" />
-          <h4 class="light-color bottom">Group Mentorship Plan</h4>
+          <h4>Group Mentorship Plan</h4>
           <p>This package will help your group,</p>
           <p>organisation, team or friends get mentored</p>
           <p>at the same time. (<b>Bonus gift:</b> training</p>
           <p>material). Browse & Book Mentors for as</p>
           <p>low as <b>N3999-5999</b> per session.</p>
-          <h4 class="light-color top">Find Mentor</h4>
+          <h4 class="light-color top arrow">
+            Find Mentor <img src="./img/arrow_right_alt_black_24dp.svg" />
+          </h4>
         </div>
       </div>
 
       <div class="services__terms space">
         <div class="services__terms-packages">
           <img src="./img/c.svg" />
-          <h4 class="light-color bottom">Interview Coaching Plan</h4>
+          <h4>Interview Coaching Plan</h4>
           <p>If you are looking at landing that dream job.</p>
           <p>(<b>Bonus gift:</b> CV/Job description review +</p>
           <p>possible interview questions and answers).</p>
           <p>Browse & Book Mentors for as low as</p>
           <p><b>N5999-7999</b> per session.</p>
-          <h4 class="light-color top">Find Mentor</h4>
+          <h4 class="light-color top arrow">
+            Find Mentor <img src="./img/arrow_right_alt_black_24dp.svg" />
+          </h4>
         </div>
 
         <div class="services__terms-packages">
           <img src="./img/d.svg" />
-          <h4 class="light-color bottom">Consultation Plan</h4>
+          <h4>Consultation Plan</h4>
           <p>If you need one on one assistance in gaining</p>
           <p>clarity, meeting that project deadline,</p>
           <p>scaling through that task. (<b>Bonus gift:</b></p>
           <p>Strategy). Browse & Book Mentors for as low</p>
           <p>as <b>N9999-19999</b> per session</p>
-          <h4 class="light-color top">Find Mentor</h4>
+          <h4 class="light-color top arrow">
+            Find Mentor <img src="./img/arrow_right_alt_black_24dp.svg" />
+          </h4>
         </div>
       </div>
     </div>
@@ -258,6 +275,8 @@
           <div class="subscribtions__images__size-eight attribute"></div>
         </div>
       </div>
+
+      <div class="subscribtions__mentors">View Mentors</div>
     </div>
 
     <!--MENTEE-->
@@ -332,7 +351,7 @@
             <p>unforgettable mentorship experience.</p>
           </div>
 
-          <div>
+          <div class="top">
             <p>Disclaimer: Clients are strongly advised to book and make</p>
             <p>
               payments to mentors only on the platform. MentorHQ will not be
@@ -361,7 +380,7 @@
         </div>
       </div>
 
-      <div>2024 copyright. All Rights reserved</div>
+      <div style="font-size: 18px">2024 copyright. All Rights reserved</div>
     </footer>
   </body>
 </html>
