@@ -48,7 +48,7 @@ body {
 .container__nav {
     display: flex;
     align-items: center;
-    gap: 37rem;
+    gap: 40rem;
     color: white;
     padding-top: 2rem;
 }
@@ -81,11 +81,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 78rem;
+    width: 80rem;
     position: relative;
     color: #fff;
     margin-top: 8rem;
-    margin-right: 9rem;
+    margin-right:7rem;
 } 
 
 .container__preface-text {
@@ -472,34 +472,79 @@ body {
 
 .subscribtions__images__size-one {
     background-image: url(../img/k.jpeg);
+    display: flex;
+    align-items: self-end;
+    justify-content: center;
 }
 
 .subscribtions__images__size-two {
     background-image: url(../img/k2.jpeg);
+    display: flex;
+    align-items: self-end;
+    justify-content: center;
 }
 
 .subscribtions__images__size-three {
     background-image: url(../img/k3.jpeg);
+    display: flex;
+    align-items: self-end;
+    justify-content: center;
 }
 
 .subscribtions__images__size-four {
     background-image: url(../img/k4.jpeg);
+    display: flex;
+    align-items: self-end;
+    justify-content: center;
 }
 
 .subscribtions__images__size-five {
     background-image: url(../img/k5.jpeg);
+    display: flex;
+    align-items: self-end;
+    justify-content: center;
 }
 
 .subscribtions__images__size-six {
     background-image: url(../img/k6.jpeg);
+    display: flex;
+    align-items: self-end;
+    justify-content: center;
 }
 
 .subscribtions__images__size-seven {
     background-image: url(../img/k7.jpeg);
+    display: flex;
+    align-items: self-end;
+    justify-content: center;
 }
 
 .subscribtions__images__size-eight {
     background-image: url(../img/k8.jpeg);
+    display: flex;
+    align-items: self-end;
+    justify-content: center;
+}
+
+.subscribtions__images__tooltip {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    font-size: 16px;
+    background-color: rgb(0, 0, 0, 0.6);
+    color: #fff;
+    width: 13rem;
+    height: 6em;
+    margin-bottom: 1rem;
+    line-height: 25px;
+    padding-left: 1.5rem;
+    border-radius: .2rem;
+}
+
+.subscribtions__images__tooltip:hover {
+    
+    cursor: pointer;
 }
 
 .subscribtions__mentors {
