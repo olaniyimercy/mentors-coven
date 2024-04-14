@@ -125,6 +125,10 @@ body {
     border: none;
 }
 
+.searchbar:hover {
+    cursor: pointer;
+}
+
 .container__preface__images {
     width: 25rem;
     height: 20rem;
@@ -329,6 +333,10 @@ body {
     align-items: center;
 }
 
+.arrow:hover {
+    cursor: pointer;
+}
+
 /*MENTORSHIP*/
 .mentorship {
     display: flex;
@@ -472,65 +480,50 @@ body {
 
 .subscribtions__images__size-one {
     background-image: url(../img/k.jpeg);
-    display: flex;
-    align-items: self-end;
-    justify-content: center;
+    position: relative;
 }
 
 .subscribtions__images__size-two {
     background-image: url(../img/k2.jpeg);
-    display: flex;
-    align-items: self-end;
-    justify-content: center;
+    position: relative;
 }
 
 .subscribtions__images__size-three {
     background-image: url(../img/k3.jpeg);
-    display: flex;
-    align-items: self-end;
-    justify-content: center;
+    position: relative;
 }
 
 .subscribtions__images__size-four {
     background-image: url(../img/k4.jpeg);
-    display: flex;
-    align-items: self-end;
-    justify-content: center;
+    position: relative;
 }
 
 .subscribtions__images__size-five {
     background-image: url(../img/k5.jpeg);
-    display: flex;
-    align-items: self-end;
-    justify-content: center;
+    position: relative;
 }
 
 .subscribtions__images__size-six {
     background-image: url(../img/k6.jpeg);
-    display: flex;
-    align-items: self-end;
-    justify-content: center;
+    position: relative;
 }
 
 .subscribtions__images__size-seven {
     background-image: url(../img/k7.jpeg);
-    display: flex;
-    align-items: self-end;
-    justify-content: center;
+    position: relative;
 }
 
 .subscribtions__images__size-eight {
     background-image: url(../img/k8.jpeg);
-    display: flex;
-    align-items: self-end;
-    justify-content: center;
+    position: relative;
 }
 
 .subscribtions__images__tooltip {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
+    position: absolute;
+    visibility: hidden;
+    bottom: .5rem;
+    left: 3rem;
+    opacity: 0;
     font-size: 16px;
     background-color: rgb(0, 0, 0, 0.6);
     color: #fff;
@@ -538,13 +531,14 @@ body {
     height: 6em;
     margin-bottom: 1rem;
     line-height: 25px;
-    padding-left: 1.5rem;
+    padding: 1.5rem;
     border-radius: .2rem;
 }
 
-.subscribtions__images__tooltip:hover {
-    
+.attribute:hover .subscribtions__images__tooltip  {
     cursor: pointer;
+    visibility: visible;
+    opacity: 1;
 }
 
 .subscribtions__mentors {
@@ -557,6 +551,10 @@ body {
     color: #fff;
     font-size: 17px;
     margin: 7rem 0;
+}
+
+.subscribtions__mentors:hover {
+    cursor: pointer;
 }
 
 /*MENTEE*/
